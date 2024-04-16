@@ -3,29 +3,29 @@
 ## Project Overview
 This project implements a conversational AI that uses Google’s T5 model as an "expert" over BART, the "generator," to enhance Chain of Thought capabilities. The model is trained and evaluated on the SAMSUM Dataset, aiming to improve the interpretability and efficiency of automatic conversation summarization.
 
-![alt text]([https://github.com/lalwanii26/Cryptography/blob/main/images/RSA%20Trials.png?raw=true](https://github.com/lalwanii26/conversation-summarization-using-llms/blob/main/figures/figure1.png))
+![alt text](https://github.com/lalwanii26/conversation-summarization-using-llms/blob/main/figures/figure1.png)
 
 ## Key Features
 - **Chain of Thought Prompting**: Leveraging the T5 model to guide the BART generator through complex reasoning paths.
 - **Evaluation Metrics**: Utilizes ROUGE-1, ROUGE-2, and ROUGE-L for performance assessment.
 
 ## Model Architecture
-### Expert (T5)
-- Description of the model configuration, training details, and role as an "expert".
-
-![alt text]([https://github.com/lalwanii26/Cryptography/blob/main/images/RSA%20Trials.png?raw=true](https://github.com/lalwanii26/conversation-summarization-using-llms/blob/main/figures/figure3.png))
-
 ### Generator (BART)
 - Description of the model configuration, training details, and role as a "generator".
 
-![alt text]([https://github.com/lalwanii26/Cryptography/blob/main/images/RSA%20Trials.png?raw=true](https://github.com/lalwanii26/conversation-summarization-using-llms/blob/main/figures/figure2.png))
+![alt text](https://github.com/lalwanii26/conversation-summarization-using-llms/blob/main/figures/figure2.png)
+
+### Expert (T5)
+- Description of the model configuration, training details, and role as an "expert".
+
+![alt text](https://github.com/lalwanii26/conversation-summarization-using-llms/blob/main/figures/figure3.png)
 
 ## Dataset
 The SAMSUM Corpus involves short message summarization, aimed at transforming dialogues into concise summaries.
 
-![alt text]([https://github.com/lalwanii26/Cryptography/blob/main/images/RSA%20Trials.png?raw=true](https://github.com/lalwanii26/conversation-summarization-using-llms/blob/main/figures/figure4.png))
+![alt text](https://github.com/lalwanii26/conversation-summarization-using-llms/blob/main/figures/figure4.png)
 
-![alt text]([https://github.com/lalwanii26/Cryptography/blob/main/images/RSA%20Trials.png?raw=true](https://github.com/lalwanii26/conversation-summarization-using-llms/blob/main/figures/figure5.png))
+![alt text](https://github.com/lalwanii26/conversation-summarization-using-llms/blob/main/figures/figure5.png)
 
 ## Results
 - **ROUGE-1**: 47.8
